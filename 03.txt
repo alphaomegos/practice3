@@ -1,0 +1,12 @@
+cat > anything.txt
+1234567890
+q1w2e3r4t5
+
+cat > readonly.txt
+qwertyuiop
+1234567890
+
+chmod =r anything.txt    
+chmod ug+w anything.txt  // Тоже самое можно сделать через chmod 664 anything.txt
+
+chmod 600 readonly.txt
