@@ -4,6 +4,6 @@ mv file4.txt tertio.txt
 
 sudo ln -s home/eduard/practice3/primo.txt home/eduard/practice3/quarto.txt
 
-mdir newdir
+mkdir newdir
 
 mv -t newdir quarto.txt secundo.txt
