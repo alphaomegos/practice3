@@ -16,6 +16,6 @@ ls -i
 
 rm file1.txt
 
-ls - i
+ls - i //file3.txt помечен как нерабочий. Номера айнод не изменились
 
-tail -f file2.txt file3.txt file4.txt
+tail -f file2.txt file3.txt file4.txt // tail: cannot open 'file3.txt' for reading: No such file or directory.
