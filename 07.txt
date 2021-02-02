@@ -1,0 +1,9 @@
+cd devproject
+mkdir mysecrets
+cd mysecrets
+
+touch mystery{00.10}.txt
+
+cd ..
+
+chmod -R ug=wx 700 mysecrets/
