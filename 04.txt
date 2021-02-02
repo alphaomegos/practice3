@@ -1,0 +1,5 @@
+sudo -s
+
+adduser allmighty
+
+usermod -aG sudo allmighty
