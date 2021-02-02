@@ -1,0 +1,21 @@
+mkdir practice3
+
+cd practice 3
+
+cat > file1.txt
+Hello, World!
+This is the first file.
+
+cat file1.txt > file2.txt
+
+sudo ln -s home/eduard/practice3/file1.txt /home/eduard/practice3/file3.txt
+
+sudo ln home/eduard/practice3/file1.txt /home/eduard/practice3/file4.txt
+
+ls -i
+
+rm file1.txt
+
+ls - i
+
+tail -f file2.txt file3.txt file4.txt
