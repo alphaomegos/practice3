@@ -1,0 +1,4 @@
+cd devproject
+mkdir shared
+chmod -R 750 shared
+cdmod +t shared

@@ -1,0 +1,15 @@
+sudo -s
+
+groupadd developer
+
+mkdir -p devproject
+chgrp -R developer /devproject
+chmod -R 2775 /devproject
+
+useradd -m -c "Java developer" -s /bin/bash -G developer javadev
+useradd -m -c "Python developer" -s /bin/bash -G developer pythondev
+useradd -m -c "Kotlin developer" -s /bin/bash -G developer kotlindev
+
+passwd javadev
+passwd pythondev
+passwd kotlindev
